@@ -79,6 +79,10 @@ body {
     width: 25%;
   }
   
+  .item:hover {
+    color: brown;
+  }
+  
   /* FOOTER */
   
  footer {

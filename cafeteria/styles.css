@@ -1,18 +1,25 @@
 body {
-    background-image: url(../cafeteria/images/background.jpg);
+
+	 background: linear-gradient(rgba(0, 0, 0, .55),
+              rgba(0, 0, 0, .55),
+              rgba(0, 0, 0, .55),
+              rgba(0, 0, 0, .55)),
+              url(../cafeteria/images/background.jpg);
+	background-blend-mode: darken;
     font-family: sans-serif;
     padding: 20px;
     height: auto;
   }
+	
   
   h1 {
-    font-size: 35px;
+    font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
   }
   
   h2 {
-    font-size: 30px;
+    font-size: 34px;
 	display: inline;
   }
     
@@ -66,11 +73,13 @@ body {
     display: inline-block;
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 18px;
+    font-size: 20px;
   }
   
   h5 {
 	margin-top: 0px;
+	font-size: 14px;
+	
   }
   
   .sabor, .postre , .salado{
@@ -86,6 +95,7 @@ body {
   .item:hover {
     color: brown;
   }
+  
   
   /* FOOTER */
   

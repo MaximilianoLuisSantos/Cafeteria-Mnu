@@ -16,6 +16,7 @@ body {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
+	background-color: blanchedalmond;
   }
   
   h2 {
@@ -57,7 +58,7 @@ body {
     height: 1px;
     background-color: slategray;
     border-color: slategray;
-		width: 75%
+	width: 75%
   }
   
   
@@ -121,4 +122,16 @@ body {
   
   a:active {
     color: brown;
+  }
+  
+  /* FORM */
+  
+  form {
+	width: 60%;
+    background-color: blanchedalmond;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+	font-family: sans-serif;
+	font-size: 18px;
   }

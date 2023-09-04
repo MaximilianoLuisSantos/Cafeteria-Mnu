@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+  
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+		<title>CYBER BAR - RESERVAS</title>
+		<link href="styles.css" rel="stylesheet"/>
+		
+	</head>
+  
+	<body>
+		
+		 <h1>CYBER BAR - Reservas</h1>
+		<div class="formulario">
+		<form>
+			<fieldset>
+			<label class="formItem" for="nombre">Nombre de la reserva:</label><br>
+			<input type="text" id="nombre" name="nombre" value="" required minlength="8" maxlength="20"><br><br>
+			<label for="dni">Ingresa tu DNI:</label><br>
+			<input type="number" id="dni" name="dni" value="" placeholder="Ingrese solo números" required min="1000000" max="99999999"><br><br>
+			
+						
+			<label class="formItem" for="cantidad">Cuantos son?</label><br>
+			<select id="cantidad" name="cantidad" required>
+			  <option value="uno">1</option>
+			  <option value="dos">2</option>
+			  <option value="tres">3</option>
+			  <option value="cuatro">4</option>
+			  <option value="cinco">5</option>
+			  <option value="seis">6</option>
+			  <option value="siete">7</option>
+			  <option value="ocho">8</option>
+			</select><br><br>
+			
+			<label class="formItem" for="fecha">Para cuando es tu reserva (fecha y hora):</label><br>
+			<input type="datetime-local" id="fecha" name="fecha" required min="11:00" max="21:00"><br><br>
+			
+			Hay alguien con alguna dieta especifica?<br>
+			<input type="checkbox" id="celiaco" name="dieta" value="Celiaco">
+			<label class="formItem" for="celiaco">Celiaco</label><br>
+			<input type="checkbox" id="vegano" name="dieta" value="Vegano">
+			<label class="formItem" for="vegano">Vegano</label><br>
+			<input type="checkbox" id="diabetico" name="dieta" value="Diabetico">
+			<label class="formItem" for="diabetico">Diabetico</label><br><br>
+			
+			<textarea name="otro" rows="20" cols="50" maxlength="150">Alguna otra cosa que nos quieras especificar escribila aca!				
+			</textarea><br><br>
+
+			<label class="formItem" for="email">Dejanos un email de contacto:</label><br>
+		    <input type="email" id="email" name="email" placeholder="example@dom.com" required><br><br>
+
+		    <label class="formItem" for="phone">Dejanos un numero de contacto:</label><br>
+		    <input type="tel" id="phone" name="phone" placeholder="10 digitos sin guiones" pattern="[0-9]{2}[0-9]{4}[0-9]{4}" required><br><br>
+			
+			<input type="submit" value="Enviar!">
+			</fieldset>
+		</form>
+	</div>
+	</body>
+	
+</html>

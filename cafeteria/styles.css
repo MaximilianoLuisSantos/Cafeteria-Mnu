@@ -1,0 +1,153 @@
+body {
+
+	 background: linear-gradient(rgba(0, 0, 0, .55),
+              rgba(0, 0, 0, .55),
+              rgba(0, 0, 0, .55),
+              rgba(0, 0, 0, .55)),
+              url(../cafeteria/images/background.jpg);
+	background-blend-mode: darken;
+    font-family: sans-serif;
+    padding: 20px;
+    height: auto;
+  }
+	
+  
+  h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+	background-color: blanchedalmond;
+  }
+  
+  h2 {
+    font-size: 34px;
+	display: inline;
+  }
+    
+  .established {
+    font-style: italic;
+  }
+  
+  h1, h2, p {
+    text-align: center;
+  }
+  
+  .menu {
+    width: 80%;
+    background-color: blanchedalmond;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }  
+
+  hr {
+    height: 3px;
+    background-color: slategray;
+    border-color: slategray;
+
+  }
+  
+  .linea {
+    height: 1px;
+    background-color: slategray;
+    border-color: slategray;
+	width: 75%
+  }
+  
+  
+  .bottom-line {
+    margin-top: 25px;
+  }
+  
+  h1, h2 {
+    font-family: Impact, serif;
+  }
+  
+  .item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+  
+  h5 {
+	margin-top: 0px;
+	font-size: 14px;
+	
+  }
+  
+  .sabor, .postre , .salado{
+    text-align: left;
+    width: 75%;
+  }
+  
+  .precio {
+    text-align: right;
+    width: 25%;
+  }
+  
+  .item:hover {
+    color: brown;
+  }
+  
+  
+  /* FOOTER */
+  
+ footer {
+    font-size: 14px;
+  }
+  
+  .direccion {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: brown;
+  }
+  
+  a:active {
+    color: brown;
+  }
+  
+  /* FORM */
+  
+  form {
+	width: 60%;
+    background-color: blanchedalmond;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+	  font-family: sans-serif;
+	  font-size: 18px;
+    
+  }
+
+  fieldset{
+    background-color: cornflowerblue;
+    
+  }
+  
+  .formItem{
+    position: absolute;
+    text-align: center;
+  }
+
+  .formulario{
+    align-items: center;
+    align-content: center;
+  }

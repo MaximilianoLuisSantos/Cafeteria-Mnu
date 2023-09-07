@@ -30,7 +30,7 @@ h2 {
 }
 
 /* Common styles for menu and form */
-.menu, form {
+.principal, form {
   width: 60%;
   background-color: blanchedalmond;
   margin: auto;

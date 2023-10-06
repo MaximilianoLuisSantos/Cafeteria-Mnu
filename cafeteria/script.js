@@ -4,5 +4,8 @@ function validateDate() {
     var today = new Date();
     if(userdate <= today){
       alert("No podes elegir una fecha anterior a hoy!");
+	  return false;
 	}
+	
+	return true;
 }

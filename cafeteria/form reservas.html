@@ -18,7 +18,7 @@
 		
 		<div class="formulario">
 		
-		<form>
+		<form onsubmit="return validateDate()">
 		
 			<fieldset>
 			
@@ -45,9 +45,7 @@
 			
 			<label class="formItem" for="fecha">Ingresa para cuándo es tu reserva (fecha y hora):</label><br>
 			<input type="datetime-local" id="fecha" name="fecha" required min="11:00" max="21:00"><br>
-			
-			<button onclick="validateDate();">Validar fecha</button><br><br>
-			
+		
 			
 			¿Hay alguien con alguna dieta especifica?<br>
 			<input type="checkbox" id="celiaco" name="dieta" value="Celiaco">

@@ -9,6 +9,7 @@
 	
 		<title>CYBER BAR - RESERVAS</title>
 		<link href="styles.css" rel="stylesheet"/>
+
 		
 	</head>
   
@@ -18,7 +19,9 @@
 		
 		<div class="formulario">
 		
-		<form onsubmit="return validateDate()">
+		<script type="text/javascript"  src="script.js"></script>
+		
+		<form onsubmit="mostrar()">
 		
 			<fieldset>
 			
@@ -41,10 +44,8 @@
 			</select><br><br>
 			
 			
-			<script type="text/javascript"  src="script.js"></script>
-			
 			<label class="formItem" for="fecha">Ingresa para cuándo es tu reserva (fecha y hora):</label><br>
-			<input type="datetime-local" id="fecha" name="fecha" required min="11:00" max="21:00"><br>
+			<input type="datetime-local" id="fecha" name="fecha" required min="11:00" max="21:00"><br><br>
 		
 			
 			¿Hay alguien con alguna dieta especifica?<br>

@@ -9,3 +9,16 @@ function validateDate() {
 	
 	return true;
 }
+
+
+function mostrar(){
+	
+	if(validateDate()){
+		var nombre = document.getElementById("nombre").value();
+		var dni = document.getElementById("dni").value();
+		var fecha = document.getElementById("fecha").value;
+		var email = document.getElementById("email").value;
+		var telefono = document.getElementById("phone").value;
+		alert("Estos son los datos de tu reserva: " + "Nombre: " + nombre + "DNI: " + dni + "Fecha: " + fecha + "Email: " + email + "Telefono: " + telefono);
+	}
+}
